@@ -153,7 +153,7 @@ def abrir_dash_ge(idturmaParametro, idtimeParametro, sprintSelecionada,turmaSele
             print(valores1)
             print(valores2)
         
-            figura = Figure(figsize=(8,6), dpi=100)
+            figura = Figure(figsize=(8,6), dpi=80)
             eixo = figura.add_subplot(111)
 
             eixo.plot(valores1, color="#00FFFF", label = "Time")
@@ -227,7 +227,7 @@ def abrir_dash_ge(idturmaParametro, idtimeParametro, sprintSelecionada,turmaSele
             valores = [qnt_resp, qnt_n_resp]
             cores= ['#00ffff', 'white']
             
-            fig, ax = plt.subplots(facecolor='#323232', figsize=(8, 6),dpi=(100))
+            fig, ax = plt.subplots(facecolor='#323232', figsize=(8, 6),dpi=(80))
             ax.clear()
 
             # Exibição das listas com cores usando o ctk e colorama
@@ -304,7 +304,7 @@ def abrir_dash_ge(idturmaParametro, idtimeParametro, sprintSelecionada,turmaSele
             metricas = indicadores
             valores = valores
             
-            fig, ax = plt.subplots(facecolor='#323232', figsize=(8, 6),dpi=(100))
+            fig, ax = plt.subplots(facecolor='#323232', figsize=(8, 6),dpi=(80))
             ax.clear()
             
             ax.axhline(y=1, color='gray', linestyle='--')
@@ -377,7 +377,7 @@ def abrir_dash_ge(idturmaParametro, idtimeParametro, sprintSelecionada,turmaSele
             indicadores = dados.keys()
             valores = dados.values()
         # Criação da figura e do eixo
-            figura = Figure(figsize=(8, 6), dpi=100)
+            figura = Figure(figsize=(8, 6), dpi=80)
             eixo = figura.add_subplot(111)
             cor_texto = "#fff"
             # Plotagem do gráfico de barras
@@ -450,7 +450,7 @@ def abrir_dash_ge(idturmaParametro, idtimeParametro, sprintSelecionada,turmaSele
                 valores = [qnt_resp, qnt_n_resp]
                 cores= ['#00ffff', 'white']
                 
-                fig, ax = plt.subplots(facecolor='#323232', figsize=(4.5, 3),dpi=(100))
+                fig, ax = plt.subplots(facecolor='#323232', figsize=(4.5, 3),dpi=(80))
                 ax.clear()
 
                 # Exibição das listas com cores usando o ctk e colorama
@@ -519,7 +519,7 @@ def abrir_dash_ge(idturmaParametro, idtimeParametro, sprintSelecionada,turmaSele
                 indicadores = dados.keys()
                 valores = dados.values()
             # Criação da figura e do eixo
-                figura = Figure(figsize=(4.5, 3), dpi=100)
+                figura = Figure(figsize=(4.5, 3), dpi=80)
                 eixo = figura.add_subplot(111)
                 cor_texto = "#fff"
                 # Plotagem do gráfico de barras
@@ -601,7 +601,7 @@ def abrir_dash_ge(idturmaParametro, idtimeParametro, sprintSelecionada,turmaSele
                 metricas = indicadores
                 valores = valores
                 
-                fig, ax = plt.subplots(facecolor='#323232', figsize=(4.5, 3),dpi=(100))
+                fig, ax = plt.subplots(facecolor='#323232', figsize=(4.5, 3),dpi=(80))
                 ax.clear()
                 
                 ax.axhline(y=1, color='gray', linestyle='--')
@@ -727,7 +727,7 @@ def abrir_dash_ge(idturmaParametro, idtimeParametro, sprintSelecionada,turmaSele
                 print(valores1)
                 print(valores2)
             
-                figura = Figure(figsize=(4.5,3), dpi=100)
+                figura = Figure(figsize=(4.5,3), dpi=80)
                 eixo = figura.add_subplot(111)
 
                 eixo.plot(valores1, color="#00FFFF", label = "Time")

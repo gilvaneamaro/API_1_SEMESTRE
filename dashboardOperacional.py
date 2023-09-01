@@ -157,7 +157,7 @@ def abrir_dash_op(idturmaParametro, idtimeParametro, sprintSelecionadaParametro,
             print(valores1)
             print(valores2)
         
-            figura = Figure(figsize=(4.5,3), dpi=100)
+            figura = Figure(figsize=(4.5,3), dpi=80)
             eixo = figura.add_subplot(111)
 
             eixo.plot(indicadores, valores2, color="#c8c8c8", label = "Time")    
@@ -233,7 +233,7 @@ def abrir_dash_op(idturmaParametro, idtimeParametro, sprintSelecionadaParametro,
             indicadores = dados.keys()
             valores = dados.values()
         # Criação da figura e do eixo
-            figura = Figure(figsize=(4.5, 3), dpi=100)
+            figura = Figure(figsize=(4.5, 3), dpi=80)
             eixo = figura.add_subplot(111)
             cor_texto = "#fff"
             # Plotagem do gráfico de barras
@@ -302,7 +302,7 @@ def abrir_dash_op(idturmaParametro, idtimeParametro, sprintSelecionadaParametro,
             valores = [qnt_resp, qnt_n_resp]
             cores= ['#00ffff', 'white']
             
-            fig, ax = plt.subplots(facecolor='#323232', figsize=(4.5, 3),dpi=(100))
+            fig, ax = plt.subplots(facecolor='#323232', figsize=(4.5, 3),dpi=(80))
             ax.clear()
 
             # Exibição das listas com cores usando o ctk e colorama
@@ -381,7 +381,7 @@ def abrir_dash_op(idturmaParametro, idtimeParametro, sprintSelecionadaParametro,
             metricas = indicadores
            
             
-            fig, ax = plt.subplots(facecolor='#323232', figsize=(4.5, 3),dpi=(100))
+            fig, ax = plt.subplots(facecolor='#323232', figsize=(4.5, 3),dpi=(80))
             ax.clear()
             
             ax.axhline(y=1, color='gray', linestyle='--')
@@ -463,7 +463,7 @@ def abrir_dash_op(idturmaParametro, idtimeParametro, sprintSelecionadaParametro,
             indicadores = dados.keys()
             valores = dados.values()
         # Criação da figura e do eixo
-            figura = Figure(figsize=(8, 6), dpi=100)
+            figura = Figure(figsize=(8, 6), dpi=80)
             eixo = figura.add_subplot(111)
             cor_texto = "#fff"
             # Plotagem do gráfico de barras
@@ -594,7 +594,7 @@ def abrir_dash_op(idturmaParametro, idtimeParametro, sprintSelecionadaParametro,
             print(valores1)
             print(valores2)
         
-            figura = Figure(figsize=(8,6), dpi=100)
+            figura = Figure(figsize=(8,6), dpi=80)
             eixo = figura.add_subplot(111)
 
             eixo.plot(indicadores, valores2, color="#c8c8c8", label = "Time")    
@@ -661,7 +661,7 @@ def abrir_dash_op(idturmaParametro, idtimeParametro, sprintSelecionadaParametro,
             valores = [qnt_resp, qnt_n_resp]
             cores= ['#00ffff', 'white']
             
-            fig, ax = plt.subplots(facecolor='#323232', figsize=(8, 6),dpi=(100))
+            fig, ax = plt.subplots(facecolor='#323232', figsize=(8, 6),dpi=(80))
             ax.clear()
 
             # Exibição das listas com cores usando o ctk e colorama
@@ -746,7 +746,7 @@ def abrir_dash_op(idturmaParametro, idtimeParametro, sprintSelecionadaParametro,
                 dados_json = json.load(arquivo)        
             
             
-            fig, ax = plt.subplots(facecolor='#323232', figsize=(8, 6))
+            fig, ax = plt.subplots(facecolor='#323232', figsize=(8, 6), dpi=85)
             ax.clear()
             ax.bar(metricas, valores, color="#66FFFF", width=0.3, align='center')
             ax.set_xlabel('', color="white")
@@ -799,7 +799,7 @@ def abrir_dash_op(idturmaParametro, idtimeParametro, sprintSelecionadaParametro,
             metricas = ['Comunicação', 'Relacionamento', 'Proatividade', 'Produtividade','Entregas']
             valores = respostas
             
-            fig, ax = plt.subplots(facecolor='#323232', figsize=(8, 6))
+            fig, ax = plt.subplots(facecolor='#323232', figsize=(8, 6), dpi=80)
             ax.clear()
             ax.bar(metricas, valores, color="#66FFFF", width=0.3, align='center')
             ax.set_xlabel('', color="white")
