@@ -275,6 +275,32 @@
                     "nometime": "Insight 360"
                 }
             ]
+        },
+        {
+            "idturma": "Teste8792",
+            "nometurma": "Teste",
+            "ordem": 10,
+            "sprints": [
+                {
+                    "indice": "1",
+                    "inicioSprint": "01/09/2023",
+                    "fimSprint": "08/09/2023"
+                }
+            ],
+            "times": [
+                {
+                    "idtime": "TechHorizontes3151",
+                    "nometime": "TechHorizontes"
+                },
+                {
+                    "idtime": "BeloHorizontes2651",
+                    "nometime": "BeloHorizontes"
+                },
+                {
+                    "idtime": "NovoHorizonte9736",
+                    "nometime": "NovoHorizonte"
+                }
+            ]
         }
     ]
 }
